@@ -1,0 +1,32 @@
+{
+  "name": "telegram",
+  "version": "0.1.0",
+  "description": "Telegram platform extension for Iris",
+  "platforms": [
+    {
+      "name": "telegram",
+      "label": "Telegram Bot",
+      "entry": "dist/index.mjs",
+      "description": "Telegram 机器人，支持私聊与群聊。",
+      "panel": {
+        "description": "填写 Telegram 机器人的访问凭证。",
+        "fields": [
+          {
+            "key": "token",
+            "type": "password",
+            "label": "Telegram Bot Token",
+            "description": "从 @BotFather 获取。",
+            "example": "123456789:ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+            "required": true
+          }
+        ]
+      }
+    }
+  ],
+  "distribution": {
+    "files": [
+      "dist/index.mjs",
+      "package.json"
+    ]
+  }
+}

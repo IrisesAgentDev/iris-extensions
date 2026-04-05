@@ -1,0 +1,12 @@
+{
+  "name": "@iris-extension/discord",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "bun build ./src/index.ts --outfile ./dist/index.mjs --target=node --format=esm"
+  },
+  "dependencies": {
+    "@irises/extension-sdk": "file:../../packages/extension-sdk",
+    "discord.js": "^14.25.1"
+  }
+}

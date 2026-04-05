@@ -1,0 +1,19 @@
+{
+  "name": "console",
+  "version": "0.1.0",
+  "description": "Interactive terminal (TUI) platform powered by OpenTUI React",
+  "platforms": [
+    {
+      "name": "console",
+      "label": "Console (TUI)",
+      "entry": "dist/index.mjs",
+      "description": "Interactive terminal interface with OpenTUI React rendering"
+    }
+  ],
+  "distribution": {
+    "files": [
+      "dist/index.mjs",
+      "package.json"
+    ]
+  }
+}

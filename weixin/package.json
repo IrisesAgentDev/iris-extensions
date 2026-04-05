@@ -1,0 +1,14 @@
+{
+  "name": "@iris-extension/weixin",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "bun build ./src/index.ts --outfile ./dist/index.mjs --target=node --format=esm"
+  },
+  "dependencies": {
+    "@irises/extension-sdk": "file:../../packages/extension-sdk"
+  },
+  "optionalDependencies": {
+    "silk-wasm": "^3.7.1"
+  }
+}

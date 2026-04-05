@@ -1,0 +1,23 @@
+{
+  "name": "weixin",
+  "version": "0.1.0",
+  "description": "Weixin platform extension for Iris",
+  "platforms": [
+    {
+      "name": "weixin",
+      "label": "微信 (WeChat)",
+      "entry": "dist/index.mjs",
+      "description": "普通微信接入，使用腾讯官方 ilink 协议。",
+      "panel": {
+        "description": "首次启动时会引导扫码登录，无需预先填写参数。",
+        "fields": []
+      }
+    }
+  ],
+  "distribution": {
+    "files": [
+      "dist/index.mjs",
+      "package.json"
+    ]
+  }
+}

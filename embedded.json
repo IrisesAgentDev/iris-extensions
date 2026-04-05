@@ -1,0 +1,17 @@
+{
+  "extensions": [
+    {
+      "name": "cron"
+    },
+    {
+      "name": "web"
+    },
+    {
+      "name": "console",
+      "external": ["@opentui/core", "@opentui/react", "react"]
+    },
+    {
+      "name": "telegram"
+    }
+  ]
+}
